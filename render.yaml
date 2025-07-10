@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: jose-sastre-email-service
+    env: python
+    buildCommand: ""
+    startCommand: "python server.py"
+    plan: free
+    region: frankfurt
+    autoDeploy: true
+    envVars: []
